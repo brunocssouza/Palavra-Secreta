@@ -1,5 +1,5 @@
 let numerosJaSorteados = [];
-const numeroMaximo = 10
+const numeroMaximo = 50
 
 function editarMensagem(tag, texto) {
     const elemento = document.querySelector(tag);
@@ -55,7 +55,7 @@ function reiniciarJogo() {
     document.getElementById('chutar').removeAttribute('disabled')
     limparInput();
     editarMensagem('h1', "Jogo do Número Secreto");
-    editarMensagem('p', "Escolha um número entre 1 e 10:");
+    editarMensagem('p', "Escolha um número entre 1 e 50:");
 }
 reiniciarJogo();
 
